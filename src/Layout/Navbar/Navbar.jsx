@@ -38,7 +38,8 @@ const Navbar = () => {
       {showNavbar && (
         <nav className={styles.nav}>
           <Link to="/">
-            <h1 >H E N G E</h1>
+            <h1 >RA</h1>
+            {/* <img src="./logo.jpg" alt="" srcset="" /> */}
           </Link>
           <ul className={styles.navList}>
             <li>
