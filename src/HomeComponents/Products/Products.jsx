@@ -10,65 +10,102 @@ import { Pagination } from "swiper/modules";
 const Products = () => {
   const menuItem = [
     {
-      path: "/lighting",
-      name: "Lighting",
-      pic: "./product_lightening.jpg",
+      path: "/center-piece",
+      name: "Center Piece",
+      pic: "./centerPiece.jpg",
       id: 1,
     },
     {
-      path: "/book-cases",
-      name: "Bookcases",
-      pic: "./product_bookCases.png",
+      path: "/clocks",
+      name: "Clocks",
+      pic: "./clocks.jpg",
       id: 2,
     },
     {
-      path: "/cabinets-and-sideboards",
-      name: "Cabinets And Sideboards",
-      pic: "./product_cabinets_and_sideboards.jpg",
+      path: "/lighting",
+      name: "Lighting",
+      pic: "./lighting.jpg",
       id: 3,
+    },
+    {
+      path: "/mirrors",
+      name: "Mirrors",
+      pic: "./mirrors.jpg",
+      id: 4,
+    },
+    {
+      path: "/porcelain",
+      name: "Porcelain",
+      pic: "porcelain.jpg",
+      id: 5,
+    },
+    {
+      path: "/paintings",
+      name: "Paintings",
+      pic: "./painting.jpg",
+      id: 6,
+    },
+    {
+      path: "/seating",
+      name: "Seating",
+      pic: "./seating.jpg",
+      id: 7,
+    },
+    {
+      path: "/storage",
+      name: "Storage",
+      pic: "./storage.jpg",
+      id: 8,
+    },
+    {
+      path: "/sculpture",
+      name: "Sculpture",
+      pic: "./sculpture.jpg",
+      id: 9,
+    },
+    {
+      path: "/silverwave",
+      name: "Silverwave",
+      pic: "Silverware.jpg",
+      id: 10,
     },
     {
       path: "/tables",
       name: "Tables",
-      pic: "./product_tables.jpg",
-      id: 4,
+      pic: "./tables.jpg",
+      id: 11,
     },
     {
-      path: "/coffee-tables",
-      name: "Coffee Tables",
-      pic: "./product_coffee_tables.jpg",
-      id: 5,
+      path: "/dining-room",
+      name: "Dining Room",
+      pic: "./diningRoom.jpg",
+      id: 12,
     },
     {
-      path: "/sofas-and-armchairs",
-      name: "Sofas And Armchairs",
-      pic: "./product_sofas_and_armChairs.jpg",
-      id: 6,
+      path: "/living-room",
+      name: "Living Room",
+      pic: "./livingRoom.jpg",
+      id: 13,
     },
     {
-      path: "/chairs-and-stools",
-      name: "Chairs And Stools",
-      pic: "./product_chairs_and_stools.jpg",
-      id: 7,
+      path: "/marbles",
+      name: "Marbles",
+      pic: "./marbles.jpg",
+      id: 14,
     },
     {
-      path: "/kitchens",
-      name: "Kitchens",
-      pic: "./product_kitchen.jpg",
-      id: 8,
+      path: "/bedroom",
+      name: "Bed Room",
+      pic: "./bedroom.jpg",
+      id: 15,
     },
     {
-      path: "/wall-penelling",
-      name: "Wall Penelling",
-      pic: "./product_wall_penealing.jpg",
-      id: 9,
+      path: "/crystal",
+      name: "Crystal",
+      pic: "./marbles.jpg",
+      id: 16,
     },
-    {
-      path: "/accessories",
-      name: "Accessories",
-      pic: "./product_accessories.jpg",
-      id: 10,
-    },
+    
   ];
   return (
     <div className={styles.products__maincontainer}>
@@ -88,7 +125,7 @@ const Products = () => {
           300: {
             width: 300,
             slidesPerView: 2,
-            spaceBetween:200,
+            spaceBetween: 200,
           },
           400: {
             width: 400,
@@ -139,11 +176,15 @@ const Products = () => {
           return (
             <SwiperSlide className={styles.products__card} key={id}>
               <Link to={path}>
-                <img src={pic} alt="" className={`animate__animated animate__rotateInUpLeft ${styles.products__img}`} />
+                <img
+                  src={pic}
+                  alt=""
+                  className={`animate__animated animate__rotateInUpLeft ${styles.products__img}`}
+                />
                 <div className={styles.products__name}>
                   <i>
                     <AddIcon />
-                  <p>{name}</p>
+                    <p>{name}</p>
                   </i>
                 </div>
               </Link>
