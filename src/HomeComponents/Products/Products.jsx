@@ -102,7 +102,7 @@ const Products = () => {
     {
       path: "/crystal",
       name: "Crystal",
-      pic: "./marbles.jpg",
+      pic: "./crystal.jpg",
       id: 16,
     },
     
