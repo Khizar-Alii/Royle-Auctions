@@ -4,6 +4,7 @@
   background-color: transparent;
   z-index: var(--z-fixed);
   height: var(--header-height);
+  position: sticky;
 }
 
 .nav {
