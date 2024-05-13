@@ -8,7 +8,10 @@ const HengeKitchens = () => {
       <h1>HK</h1>
       <div className={styles.hengeKitchenContainer}>
         <div className={styles.hengeKitchenLeft}>
-          <img src="./hengeKitchen.jpg" alt="hengeKitchen" />
+          {/* <img src="./hengeKitchen.jpg" alt="hengeKitchen" /> */}
+          <video autoPlay loop muted >
+            <source src="./hengeKitchen.mp4" type="video/mp4" />
+          </video>
         </div>
         <div className={styles.hengeKitchenRight}>
           <h1>HENGE KITCHENS</h1>
@@ -18,16 +21,27 @@ const HengeKitchens = () => {
             areas are the heart of the house, the core, a place of family and
             public conviviality.
           </p>
-          <div style={{
-            display:'flex',
-            alignItems: 'center',
-            color:'black',
-            cursor: 'pointer',
-          }}>
-            <i style={{paddingTop:'3px'}}>
+          <div
+            style={{
+              display: "flex",
+              alignItems: "center",
+              color: "black",
+              cursor: "pointer",
+            }}
+          >
+            <i style={{ paddingTop: "3px" }}>
               <AddIcon fontSize="small" />
             </i>
-            <p style={{color:'black',fontWeight:'bolder',textTransform:'uppercase',letterSpacing:'2px'}}>Discover</p>
+            <p
+              style={{
+                color: "black",
+                fontWeight: "bolder",
+                textTransform: "uppercase",
+                letterSpacing: "2px",
+              }}
+            >
+              Discover
+            </p>
           </div>
         </div>
       </div>

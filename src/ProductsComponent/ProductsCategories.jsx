@@ -54,7 +54,7 @@ export const  productCategories = [
       id: 9,
     },
     {
-      path: "/silverware",
+      path: "/silverwave",
       name: "Silverwave",
       pic: "Silverware.jpg",
       id: 10,
@@ -84,7 +84,7 @@ export const  productCategories = [
       id: 14,
     },
     {
-      path: "/bedroom",
+      path: "/bed-room",
       name: "Bed Room",
       pic: "./bedroom.jpg",
       id: 15,
@@ -157,7 +157,66 @@ export const lighting = [
     id : 10,
     name : "",
     pic : "./Products/Lighting/10.jpg"
-
+  },
+  {
+    id : 11,
+    name : "",
+    pic : "./Products/Lighting/11.jpg"
+  },
+  {
+    id : 12,
+    name : "",
+    pic : "./Products/Lighting/12.jpg"
+  },
+  {
+    id : 13,
+    name : "",
+    pic : "./Products/Lighting/13.jpg"
+  },
+  {
+    id : 14,
+    name : "",
+    pic : "./Products/Lighting/14.jpg"
+  },
+  {
+    id : 15,
+    name : "",
+    pic : "./Products/Lighting/15.jpg"
+  },
+  {
+    id : 16,
+    name : "",
+    pic : "./Products/Lighting/16.jpg"
+  },
+  {
+    id : 17,
+    name : "",
+    pic : "./Products/Lighting/17.jpg"
+  },
+  {
+    id : 18,
+    name : "",
+    pic : "./Products/Lighting/18.jpg"
+  },
+  {
+    id : 19,
+    name : "",
+    pic : "./Products/Lighting/19.jpg"
+  },
+  {
+    id : 20,
+    name : "",
+    pic : "./Products/Lighting/20.jpg"
+  },
+  {
+    id : 21,
+    name : "",
+    pic : "./Products/Lighting/21.jpg"
+  },
+  {
+    id : 22,
+    name : "",
+    pic : "./Products/Lighting/22.jpg"
   },
 ]
 

@@ -12,7 +12,10 @@ const S34 = () => {
           <h1>S</h1>
           <span>34</span>
         </div>
-        <img src="./S34.jpg" alt="" />
+        {/* <img src="./S34.jpg" alt="" /> */}
+        <video autoPlay loop muted className={styles.video}>
+          <source src="./s34.mp4" type="video/mp4" />
+        </video>
       </div>
       <div className={styles.S34mid}>
         <h3>HENGE SHOWROOM</h3>

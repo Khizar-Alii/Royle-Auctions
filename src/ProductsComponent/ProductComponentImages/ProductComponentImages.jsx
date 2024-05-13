@@ -8,7 +8,7 @@ const ProductComponentImages = ({cateogoryImage}) => {
         {
           cateogoryImage.map((item)=>{
             return(
-              <div className={styles.productImagesImgContainer}>
+              <div className={styles.productImagesImgContainer} key={item.id}>
                 <img src={item.pic} alt="" srcset="" />
                 <h4>{item.name}</h4>
               </div>
