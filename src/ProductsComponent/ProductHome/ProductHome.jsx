@@ -4,11 +4,11 @@ import ProductComponentImages from '../ProductComponentImages/ProductComponentIm
 import Contact from '../../Layout/Contact/Contact'
 import Footer from '../../Layout/Footer/Footer'
 
-const ProductHome = () => {
+const ProductHome = ({cateogoryImage}) => {
   return (
     <div>
       <ProductComponentHero />
-      <ProductComponentImages />
+      <ProductComponentImages cateogoryImage = {cateogoryImage}/>
       <Contact />
       <Footer />
     </div>

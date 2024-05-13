@@ -21,7 +21,7 @@ const HomeHero = () => {
       <div
         className={`animate__animated animate__fadeInDown ${styles.homeHeroTextDiv}`}
       >
-        <h1>Ageless Masrterpieces</h1>
+        <h1>Ageless Master Pieces</h1>
         <p>MDW24</p>
         <Link
           to="/discover-more"

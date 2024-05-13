@@ -28,6 +28,8 @@
   height: var(--header-height);
   width: 120px;
   background-color: transparent;
+  object-fit: cover;
+  padding-bottom: 5px;
 }
 
 .navList {
