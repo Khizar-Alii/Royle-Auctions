@@ -42,7 +42,7 @@
 }
 .HLifeContainerRight {
   display: flex;
-  align-items: center;
+  margin-top: 40px;
   width: 35%;
   padding: 0 20px;
   p {

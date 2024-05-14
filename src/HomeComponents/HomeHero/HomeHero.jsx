@@ -22,7 +22,7 @@ const HomeHero = () => {
         className={`animate__animated animate__fadeInDown ${styles.homeHeroTextDiv}`}
       >
         <h1>Ageless Master Pieces</h1>
-        <p>MDW24</p>
+        <p>ROYAL AUCTIONS HOUSE</p>
         <Link
           to="/discover-more"
           className={`${styles.discoverMore} ${isHovered ? "animate__animated animate__pulse" : ""}`}

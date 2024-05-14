@@ -3,14 +3,12 @@ import styles from "./S34.module.css";
 import AddIcon from "@mui/icons-material/Add";
 import { Link } from "react-router-dom";
 
-
 const S34 = () => {
   return (
     <div className={styles.s34Container}>
       <div className={styles.S34Left}>
         <div>
-          <h1>S</h1>
-          <span>34</span>
+          <h1>ROYAL AUCTIONS HOUSE</h1>
         </div>
         {/* <img src="./S34.jpg" alt="" /> */}
         <video autoPlay loop muted className={styles.video}>
@@ -18,26 +16,22 @@ const S34 = () => {
         </video>
       </div>
       <div className={styles.S34mid}>
-        <h3>HENGE SHOWROOM</h3>
         <h2>
-          OUR HOME IN <br /> MILAN.
+          We are proud antique collectors and have a huge selection of 19th and
+          18th century European antique furniture
         </h2>
         <p>
-          Henge has moved its Home and has created a whole new space, in the
-          center of Milan's Quadrilatero della Moda, Via Della Spiga 34.
+          Royal Auction House specializes in unique vintage furniture and
+          accessories designed to imbue, luxury, sophistication and unique
+          character to your home. Living and breathing decorative, industrial,
+          mid-century, and European, Egyptian and Asian antiques, introduce
+          imaginative style to both period and contemporary decor settings. We
+          source a complete range of vintage furniture and decorative objects in
+          a wide range of ages and styles. Our key objective is that our items
+          work harmoniously within a contemporary design scheme, adding soul and
+          style to your home, shop, cafe, restaurant, chalet, or boutique hotel.
         </p>
-        <br />
-        <br />
-        <p>
-          The new Home is called S34, a space that allows you to immerse
-          yourself and delve into the personality and creative eclecticism that
-          has been a hallmark of Henge's journey over the years.
-        </p>
-        <Link
-          to="/discover-more"
-          className={`${styles.discoverMore}`}
-          
-        >
+        <Link to="/discover-more" className={`${styles.discoverMore}`}>
           <i>
             <AddIcon />
           </i>
@@ -46,8 +40,8 @@ const S34 = () => {
       </div>
       <div className={styles.S34Right}>
         <p>
-          An augmented surface that merges architecture and products in one
-          place. Three levels of light, shape, matter, and function to explore.
+        Established in 2004, the Royal House of Auctions strives to find the perfect pieces to complete your most imaginative interior designs. <br /> <br />
+        If there's a special something you'd like, you can commission us to find it for you ! Or if you have any questions, we are happy to discuss all the details. Just email us at <strong> Khaled@roualautionhouse.com </strong>
         </p>
       </div>
     </div>
