@@ -10,17 +10,17 @@ import LinkedInIcon from "@mui/icons-material/LinkedIn";
 const Footer = () => {
   return (
     <div className={styles.footerContainer}>
-      <div className={styles.footerLeft}>HENGE</div>
+      <div className={styles.footerLeft}>
+        <Link to="/">
+          {/* <h1 >RA</h1> */}
+          <img src="./onoraLogo.jpg" alt="logo" />
+        </Link>
+      </div>
       <div className={styles.footerMid}>
-        <Link className={styles.footerMidContent}
-          to="/credits"
-        >
+        <Link className={styles.footerMidContent} to="/credits">
           Credits
         </Link>
-        <Link
-          to="/privacy"
-          className={styles.footerMidContent}
-        >
+        <Link to="/privacy" className={styles.footerMidContent}>
           Privacy
         </Link>
         <p

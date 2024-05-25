@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./ProductComponentImages.module.css";
+import { Link } from "react-router-dom";
 
 const ProductComponentImages = ({cateogoryImage}) => {
   return (
@@ -9,8 +10,10 @@ const ProductComponentImages = ({cateogoryImage}) => {
           cateogoryImage.map((item)=>{
             return(
               <div className={styles.productImagesImgContainer} key={item.id}>
-                <img src={item.pic} alt="" />
+                <Link to={item.path}>
+                <img src={item.pic} alt={item.name} />
                 <h4>{item.name}</h4>
+                </Link>
               </div>
             )
           })

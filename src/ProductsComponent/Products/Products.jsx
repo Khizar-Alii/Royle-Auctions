@@ -24,7 +24,7 @@ const Products = () => {
           return (
             <Link to={item.path} className={styles.productImagesImgContainer}>
               <img src={item.pic} alt="" srcset="" />
-              <h4>{item.name}</h4>
+              <h2 style={{color:"whitesmoke",margin:'5px'}}>{item.name}</h2>
             </Link>
           );
         })}

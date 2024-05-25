@@ -34,7 +34,7 @@
 }
 .hengeKitchenRight {
   h1 {
-    font-size:20px;
+    font-size: 20px;
     letter-spacing: 2px;
     font-weight: 700;
     margin: 10px 0;
@@ -56,10 +56,23 @@
 
     width: 100%;
   }
+
   .hengeKitchenRight {
     width: 100%;
     p {
       line-height: 35px;
+    }
+  }
+  .hengeKitchen {
+    h1 {
+      font-size: 50px;
+    }
+  }
+}
+@media screen and (max-width: 600px) {
+  .hengeKitchen {
+    h1 {
+      font-size: 40px;
     }
   }
 }

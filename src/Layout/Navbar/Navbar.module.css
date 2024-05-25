@@ -1,10 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Sacramento&display=swap");
 .header {
   width: 100%;
-  background-color: transparent;
+  background-color: #000000;
   z-index: var(--z-fixed);
   height: var(--header-height);
   position: sticky;
+  margin: 15px 0;
 }
 
 .nav {
@@ -27,7 +28,7 @@
 }
 .nav img {
   height: var(--header-height);
-  width: 120px;
+  width: 100px;
   background-color: transparent;
   object-fit: cover;
   padding-bottom: 5px;

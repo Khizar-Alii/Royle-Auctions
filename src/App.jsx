@@ -4,6 +4,12 @@ import Navbar from "./Layout/Navbar/Navbar";
 import ProductHome from "./ProductsComponent/ProductHome/ProductHome.jsx";
 import Products from "./ProductsComponent/Products/Products.jsx";
 import { lighting } from "./ProductsComponent/ProductsCategories.jsx";
+import Lighteing from "./indiviualProducts/Lighteing/Lighteing.jsx";
+// Lightening categories imports
+import Chandelier from "../src/indiviualProducts/Lighteing/Chandelier.jsx";
+import Lamps from "../src/indiviualProducts/Lighteing/Lamps.jsx";
+import Lanterns from "../src/indiviualProducts/Lighteing/Lanterns.jsx";
+import Scones from "../src/indiviualProducts/Lighteing/Scones.jsx";
 function App() {
   return (
     <>
@@ -19,10 +25,7 @@ function App() {
           path="/clocks"
           element={<ProductHome cateogoryImage={lighting} />}
         />
-        <Route
-          path="/lighting"
-          element={<ProductHome cateogoryImage={lighting} />}
-        />
+        <Route path="/lighting" element={<Lighteing />} />
         <Route
           path="/mirrors"
           element={<ProductHome cateogoryImage={lighting} />}
@@ -75,9 +78,25 @@ function App() {
           path="/crystal"
           element={<ProductHome cateogoryImage={lighting} />}
         />
+        {/* Lightening categories routes */}
+        <Route
+          path="/lighting/chandelier"
+          element={<Chandelier cateogoryImage={lighting} />}
+        />
+        <Route
+          path="/lighting/lanterns"
+          element={<Lanterns cateogoryImage={lighting} />}
+        />
+        <Route
+          path="/lighting/scones"
+          element={<Scones cateogoryImage={lighting} />}
+        />
+        <Route
+          path="/lighting/lamps"
+          element={<Lamps cateogoryImage={lighting} />}
+        />
       </Routes>
     </>
   );
 }
-
 export default App;
