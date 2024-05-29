@@ -3,29 +3,30 @@ import ProductComponentHero from '../../ProductsComponent/ProductComponentHero/P
 import ProductComponentImages from '../../ProductsComponent/ProductComponentImages/ProductComponentImages'
 import Contact from '../../Layout/Contact/Contact'
 import Footer from '../../Layout/Footer/Footer'
+import { Link } from 'react-router-dom'
 const LighteingCategories = [
   {
     id : 1,
     name : "Chandelier ",
-    pic: "./public/products/Lighting/1.jpg",
+    pic: "/public/products/Lighting/1.jpg",
     path : "/lighting/chandelier"
   },
   {
     id : 2,
     name : "Lanterns",
-    pic: "./public/products/Lighting/2.jpg",
+    pic: "/public/products/Lighting/2.jpg",
     path : "/lighting/lanterns"
   },
   {
     id : 3,
     name : "Scones",
-    pic: "./public/products/Lighting/3.jpg",
+    pic: "/public/products/Lighting/3.jpg",
     path : "/lighting/scones"
   },
   {
     id : 4,
     name : "Lamps",
-    pic: "./public/products/Lighting/4.jpg",
+    pic: "/public/products/Lighting/4.jpg",
     path : "/lighting/lamps"
   }
 

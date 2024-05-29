@@ -93,7 +93,7 @@ function App() {
         />
         <Route
           path="/lighting/lamps"
-          element={<Lamps cateogoryImage={lighting} />}
+          element={<Lamps  />}
         />
       </Routes>
     </>
