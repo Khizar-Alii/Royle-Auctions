@@ -7,7 +7,9 @@ const HLife = () => {
       <h1>How to Buy</h1>
       <div className={styles.HLifeContainer}>
         <div className={styles.HLifeContainerLeft}>
-          <img src="./HLife.jpg" alt="HLife" />
+          <video autoPlay loop muted>
+            <source src="/howToBuy.mp4" type="video/mp4" />
+          </video>
         </div>
         <div className={styles.HLifeContainerMid}>
           <h3>How to Buy :</h3>

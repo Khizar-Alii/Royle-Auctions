@@ -14,10 +14,10 @@
   width: 100%;
 }
 .HLifeContainerLeft {
+  display: flex;
   width: 25%;
-  img {
-    width: 300px;
-    height: 400px;
+  video {
+    width: 100%;
   }
 }
 .HLifeContainerMid {
@@ -119,11 +119,11 @@
 }
 
 @media screen and (max-width: 530px) {
-  .HLifeContainerLeft {
+  /* .HLifeContainerLeft {
     img {
       height: 400px;
     }
-  }
+  } */
   .HLifeContainerMid {
     padding: 10px 10px;
     h3 {
